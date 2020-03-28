@@ -1,0 +1,19 @@
+{
+  "name": "google-docs-addon-svelte-template",
+  "version": "1.0.0",
+  "description": "A template repository to develop a Google Docs add-on with Svelte.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikenikles/google-docs-addon-svelte-template.git"
+  },
+  "author": "Mike Nikles, @mikenikles",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikenikles/google-docs-addon-svelte-template/issues"
+  },
+  "homepage": "https://github.com/mikenikles/google-docs-addon-svelte-template#readme"
+}
