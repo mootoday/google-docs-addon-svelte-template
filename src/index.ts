@@ -46,6 +46,12 @@ const onInstall = (e) => {
  * the mobile add-on version.
  */
 const showSidebar = () => {
-  // TODO: Display the sidebar
-  Logger.log("TODO: Display the sidebar.");
+  const ui = HtmlService.createTemplateFromFile('src/sidebar').evaluate().setTitle(ADDON_NAME);
+  DocumentApp.getUi().showSidebar(ui);
 }
+
+/**
+ * Parses the file with the given file name. This is used to inject CSS and Javascript
+ * in an HTML file.
+ */
+const include = (filename: string) => HtmlService.createHtmlOutputFromFile(filename).getContent();
