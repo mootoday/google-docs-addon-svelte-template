@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/mikenikles/google-docs-addon-svelte-template/issues"
   },
-  "homepage": "https://github.com/mikenikles/google-docs-addon-svelte-template#readme"
+  "homepage": "https://github.com/mikenikles/google-docs-addon-svelte-template#readme",
+  "devDependencies": {
+    "@google/clasp": "^2.3.0",
+    "@types/google-apps-script": "^1.0.11"
+  }
 }
