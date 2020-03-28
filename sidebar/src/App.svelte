@@ -1,10 +1,15 @@
 <script>
-	export let name;
+  export let name;
+
+  const insertHelloWorld = () => {
+    google.script.run.insertText("Hello World.");
+  }
 </script>
 
 <main>
 	<h1>Hello {name}!</h1>
 	<p>Visit the <a href="https://svelte.dev/tutorial" target="_blank">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+  <button on:click={insertHelloWorld} class="blue">Insert Hello World.</button>
 </main>
 
 <style>

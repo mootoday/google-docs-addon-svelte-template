@@ -55,3 +55,8 @@ const showSidebar = () => {
  * in an HTML file.
  */
 const include = (filename: string) => HtmlService.createHtmlOutputFromFile(filename).getContent();
+
+/**
+ * Inserts the given text into the active document.
+ */
+const insertText = (text: string) => TextInserter.insertText(text);
