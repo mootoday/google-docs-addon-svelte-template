@@ -1,8 +1,6 @@
 # google-docs-addon-svelte-template
 A template repository to develop a Google Docs add-on with Svelte.
 
-Live demo at https://docs.google.com/document/d/1Jbzl5iYXKAqpRBLAtapIt_U2SMhWpHnnSiVw4sRUrBk
-
 ## Getting Started
 
 1. Log in and authenticate with your Google account:
